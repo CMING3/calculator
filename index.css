@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.monitor{
+    width:400px;
+    height:100px;
+    background-color: grey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+}
+
+.button{
+    padding: 10px;
+}
+
+.button.tall{
+    grid-row: span 2;
+}
+
+.button.fat{
+    grid-column: span 2;
+}
