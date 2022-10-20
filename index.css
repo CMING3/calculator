@@ -40,3 +40,23 @@ body{
 .button.fat{
     grid-column: span 2;
 }
+
+.button:active{
+    background-color: orange;
+
+}
+
+.formula{
+    height:40%;
+    padding: 7px 10px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.solution{
+    height:60%;
+    font-size: 30px;
+    padding:13px;
+    text-align: right;
+    overflow: hidden;
+}
